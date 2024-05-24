@@ -1,13 +1,13 @@
 class config:
-    BOT_TOKEN = ""
-    APP_ID = ""
-    API_HASH = ""
-    DATABASE_URL = ""
-    SUDO_USERS = "" # Sepearted by space.
+    BOT_TOKEN = "5436508081:AAEaiqF2JxmFf3RLZtybQh0QzqvOSVtyLYA"
+    APP_ID = "5310709"
+    API_HASH = "63a546bdaf18e2cbba99f87b4274fa05"
+    DATABASE_URL = "mongodb+srv://haxorbaba5:nafis321@cluster0.7cc7cid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+    SUDO_USERS = "1667558324" # Sepearted by space.
     DOWNLOAD_DIRECTORY = "./downloads/"
-    G_DRIVE_CLIENT_ID = ""
-    G_DRIVE_CLIENT_SECRET = ""
-    SUPPORT_CHAT_LINK = ""
+    G_DRIVE_CLIENT_ID = "534301163350-3pq3llm37fkqaev61hbmktssi0fq8sb9.apps.googleusercontent.com"
+    G_DRIVE_CLIENT_SECRET = "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"
+    SUPPORT_CHAT_LINK = "https://t.me/nafisfuad1"
 
 
 class BotCommands:
@@ -39,7 +39,7 @@ class Messages:
         
         # Dont remove this ↓ if you respect developer.
          
-        "**Join Channel @lkhitech**"
+        "**Join Channel @Nafisfuad1**"
         ]
      
     RATE_LIMIT_EXCEEDED_MESSAGE = "❗ **Rate Limit Exceeded.**\n__User rate limit exceeded try after 24 hours.__"
