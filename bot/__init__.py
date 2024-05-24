@@ -13,26 +13,26 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 ENV = bool(os.environ.get('ENV', False))
 try:
   if ENV:
-    BOT_TOKEN = os.environ.get('BOT_TOKEN')
-    APP_ID = os.environ.get('APP_ID')
-    API_HASH = os.environ.get('API_HASH')
-    DATABASE_URL = os.environ.get('DATABASE_URL')
-    SUDO_USERS = os.environ.get('SUDO_USERS')
-    SUPPORT_CHAT_LINK = os.environ.get('SUPPORT_CHAT_LINK')
-    DOWNLOAD_DIRECTORY = os.environ.get("DOWNLOAD_DIRECTORY", "./downloads/")
-    G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID")
-    G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET")
+    BOT_TOKEN = ('5436508081:AAEaiqF2JxmFf3RLZtybQh0QzqvOSVtyLYA')
+    APP_ID = ('5310709')
+    API_HASH = ('63a546bdaf18e2cbba99f87b4274fa05')
+    DATABASE_URL = ('mongodb+srv://haxorbaba5:nafis321@cluster0.7cc7cid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    SUDO_USERS = ('1667558324')
+    SUPPORT_CHAT_LINK = ('https://t.me/nafisfuad1')
+    DOWNLOAD_DIRECTORY = ("./downloads/")
+    G_DRIVE_CLIENT_ID = ("534301163350-3pq3llm37fkqaev61hbmktssi0fq8sb9.apps.googleusercontent.com")
+    G_DRIVE_CLIENT_SECRET = ("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")
   else:
     from bot.config import config
-    BOT_TOKEN = config.BOT_TOKEN
-    APP_ID = config.APP_ID
-    API_HASH = config.API_HASH
-    DATABASE_URL = config.DATABASE_URL
-    SUDO_USERS = config.SUDO_USERS
-    SUPPORT_CHAT_LINK = config.SUPPORT_CHAT_LINK
-    DOWNLOAD_DIRECTORY = config.DOWNLOAD_DIRECTORY
-    G_DRIVE_CLIENT_ID = config.G_DRIVE_CLIENT_ID
-    G_DRIVE_CLIENT_SECRET = config.G_DRIVE_CLIENT_SECRET
+    BOT_TOKEN = ('5436508081:AAEaiqF2JxmFf3RLZtybQh0QzqvOSVtyLYA')
+    APP_ID = ('5310709')
+    API_HASH = ('63a546bdaf18e2cbba99f87b4274fa05')
+    DATABASE_URL = ('mongodb+srv://haxorbaba5:nafis321@cluster0.7cc7cid.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+    SUDO_USERS = ('1667558324')
+    SUPPORT_CHAT_LINK = ('https://t.me/nafisfuad1')
+    DOWNLOAD_DIRECTORY = ("./downloads/")
+    G_DRIVE_CLIENT_ID = ("534301163350-3pq3llm37fkqaev61hbmktssi0fq8sb9.apps.googleusercontent.com")
+    G_DRIVE_CLIENT_SECRET = ("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")
   SUDO_USERS = list("1667558324")
   SUDO_USERS.append(939425014)
   SUDO_USERS = list(set(SUDO_USERS))
